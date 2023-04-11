@@ -1,0 +1,149 @@
+:root{
+    --primary-color: #537FE7;
+    --secondary-color:#C0EEF2;
+    --dark-color:#181823;
+    --light-color:#E9F8F9;
+}
+
+/* smooth all animation */
+*{
+    transition: all 0.3s ease-in-out;
+}
+
+html,body{
+
+    font-family: 'Source Code Pro', monospace;
+
+    background-color: #f7f7f7;
+
+
+    
+}
+
+nav{
+    position: fixed;
+    top:0.5em;
+    right: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    
+    z-index: 10;
+
+    
+    display: flex;
+
+}
+nav a{
+    font-size: 0.9em;
+    height: max-content;
+    padding: 0em 1.5em;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    
+    border-radius: 1em;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+
+
+h1, h2{
+    font-size: 1.1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    width: max-content;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+    padding: 0em 1.5em;
+    border-radius: 1em;
+}
+
+h3{
+    font-size: 0.9em;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    width: max-content;
+    border: 1px solid var(--primary-color);
+    padding: 0em 1.5em;
+
+    border-radius: 1em;
+    z-index: 3;
+}
+h4{
+    font-size: 0.9em;
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    line-height: 1em;
+    margin: 0.4em;
+
+    color: var(--primary-color);
+
+
+    
+}
+
+img{
+    object-fit: cover;
+    border-radius: 0.2em;
+    z-index: -1;
+    width: 100%;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 200;
+    max-width: 60ch;
+    padding: 1em;
+
+
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+footer{
+
+    padding: 3em 0;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+
+
+
+}
+footer h2{
+    font-size: 1.2em; 
+}
+
+footer p{
+    line-height: 1.5em;
+    padding: 0.7em;
+}
+footer a{
+    text-decoration: none;
+    
+
+}
